@@ -1,0 +1,4 @@
+1 建立头条包
+2 在头条包下建立 controller   model dao service aspect 包
+controller是工程入口 通过注释注入service中的类的对象。service中的类调用 dao中接口创建的数据库
+aspect包中是面向切面编程的程序，负责打印日志。
